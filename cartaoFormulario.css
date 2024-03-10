@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    color: inherit;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background-color: rgba(17, 24, 39, 1);
+}
+
+body>main.forms {
+    margin: 10% auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    width: 736px;
+    height: 420px;
+    border-radius: 8px;
+    ;
+    padding: 32px;
+    gap: 48px;
+    background-color: rgba(31, 41, 55, 1);
+}
+
+body>main.forms>div.blocos >div.infos {
+    display: flex;
+    flex-direction: column;
+    width: 672px;
+    height: 252px;
+    gap: 24px 64px;
+    ;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados {
+    width: 328px;
+    height: 252px;
+    gap: 24px 0px;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-numero {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 68px;
+    gap: 4px 0px;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-numero label {
+    width: auto;
+    height: 16px;
+    color: rgba(229, 231, 235, 1);
+
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-numero input {
+    width: 328px;
+    height: 48px;
+    border-radius: 4px;
+    column-gap: 10px;
+    padding: 12px;
+    background-color: rgba(17, 24, 39, 1);
+    border: 1.5px solid rgba(147, 51, 234, 1);
+}
+
+div.dados-nome {
+    color: white;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-numero ::placeholder {
+    color: rgba(243, 244, 246, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 328px;
+    height: 68px;
+    gap: 0px 16px;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.validade {
+    width: 182px;
+    height: 68px;
+    gap: 4px 0px;
+    color: white;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.cvv {
+    width: 130px;
+    height: 68px;
+    gap: 4px 0px;
+    color: white;
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.validade input {
+    width: 182px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 0px 10px;
+    padding: 12px;
+    background-color: rgba(17, 24, 39, 1);
+    border: 1.5px solid rgba(55, 65, 81, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.validade ::placeholder {
+    color: rgba(156, 163, 175, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.cvv input {
+    width: 130px;
+    height: 48px;
+    border-radius: 4px;
+    gap: 0px 10px;
+    padding: 12px;
+    background-color: rgba(17, 24, 39, 1);
+    border: 1.5px solid rgba(55, 65, 81, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.cvv img {
+    width: 13px;
+    height: 13px;
+    color: rgba(255, 255, 255, 1);
+
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-footer>div.cvv ::placeholder {
+    color: rgba(156, 163, 175, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-nome {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 68px;
+    gap: 4px 0px;
+}
+
+body>main.forms>div.blocos >div.blocos >div.infos>div.dados-nome label {
+    width: auto;
+    height: 16px;
+    color: rgba(229, 231, 235, 1);
+
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-nome input {
+    width: 328px;
+    height: 48px;
+    border-radius: 4px;
+    column-gap: 10px;
+    padding: 12px;
+    background-color: rgba(17, 24, 39, 1);
+    border: 1.5px solid rgba(55, 65, 81, 1);
+}
+
+body>main.forms>div.blocos >div.infos>div.dados-nome ::placeholder {
+    color: rgba(156, 163, 175, 1);
+}
+
+div.forms {
+    display: flex;
+    flex-direction: row;
+}
+
+div.blocos {
+    position: relative;
+}
+
+div.cartao {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    height: 220px;
+    gap: 32px 0px;
+    ;
+    position: absolute;
+    left: 392px;
+    top: 20px;
+}
+
+div.cartao > div.card {
+
+    width: 280px;
+    height: 168px;
+    border-radius: 16px;
+    border: 1px solid rgb(80, 81, 55);
+    background: rgb(255,255,255);
+    background: rgb(255,255,255);
+    background: linear-gradient(60deg, rgba(255,255,255,1) 0%, rgba(49,37,83,1) 0%, rgba(56,19,159,1) 13%, rgb(84, 91, 65) 32%, rgb(74, 18, 188) 52%, rgb(97, 215, 203) 66%, rgba(33,121,130,1) 76%, rgb(75, 23, 220) 100%);
+}
+div.cartao > div.card > div.card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 10px;
+}
+div.cartao > div.card > div.card-top > img {
+    width: 25px;
+    height: 25px;
+}
+div.cartao > div.card > div.card-top > span {
+    color: white;
+}
+div.card-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+img.top {
+   margin: 0px 24px;
+}
+img.middle {
+    margin: 30px 24px;
+}
+img.bottom {
+    margin-bottom: 24px;
+}
+
+div.dados-seguros {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 32px;
+    width: auto;
+    height: 20px;
+    gap: 8px; 
+}
+div.dados-seguros img {
+    width: 15px;
+    height: 15.62px;
+    color: #6EE7B7;
+}
+div.dados-seguros span {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color:#E5E7EB;
+}
+
+footer button {
+    background-color: #9333EA;
+    border-radius: 4px;
+}
+
+a.button {
+    display: flex;
+    justify-content: center;
+    width: 674px;
+    height: 56px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color:#fbfaf9; 
+    padding: 16px 48px;
+    gap: 8px;
+}
+
